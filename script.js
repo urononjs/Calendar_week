@@ -53,6 +53,7 @@ for (dayOfWeek in calendarJson) {
     document.write("<tr>");
     document.write("<td>" + dayOfWeek + "</td>");
 
+
     document.write("<td></td>");
     document.write("<td></td>");
     document.write("<td></td>");
@@ -78,9 +79,15 @@ for (dayOfWeek in calendarJson) {
     document.write("<td></td>");
     document.write("<td></td>");
     document.write("</tr>");
+
 }
 
+
 document.write("</table>");
+
+
+
+
 
 
 
