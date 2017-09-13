@@ -1,0 +1,48 @@
+table {
+    width: 50%; /* Ширина таблицы */
+    margin: auto; /* Выравниваем таблицу по центру окна  */
+    /*margin-top: 160px;*/
+}
+td {
+    background: darkgray; /* Цвет фона */
+    border: 1px solid #333; /* Граница вокруг ячеек */
+    padding: 10px; /* Поля в ячейках */
+    opacity: 0.5; /* Полупрозрачность таблицы */
+    filter: alpha(Opacity=50); /* Для IE */
+}
+.trans {
+    opacity: 1; /* Непрозрачность ячеек */
+    /*filter: alpha(Opacity=100); !* Для IE *!*/
+}
+button {
+    width: 12%;
+    height: 40px;
+    margin-left: 645px;
+    margin-top: 10px;
+    color: slategray;
+    border-radius:5px;
+
+}
+.button {
+    position: relative;
+    margin-left: inherit;
+    color: slategray;
+    border-radius:5px;
+}
+
+
+.table {
+
+    position: relative;
+    color: brown;
+
+}
+
+
+
+
+
+
+
+
+
