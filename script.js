@@ -1,4 +1,4 @@
-var calendarJson = {
+let calendarJson = {
     "mo": [
         {
             "bt": 240,
@@ -32,33 +32,14 @@ var calendarJson = {
     "su": []
 };
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 document.write("<table>");
-
-
-
-
 
 document.write("<td>");
 
+for (dayOfTime = 1; dayOfTime <= 24; dayOfTime++) {
 
-for ( dayOfTime = 1; dayOfTime <=24; dayOfTime ++) {
 
-
-    document.write ( "<td>" + dayOfTime + "</td>");
+    document.write("<td>" + dayOfTime + "</td>");
 
 }
 
@@ -66,10 +47,7 @@ for ( dayOfTime = 1; dayOfTime <=24; dayOfTime ++) {
 document.write("</td>");
 
 
-
-
-
-for ( dayOfWeek in calendarJson ) {
+for (dayOfWeek in calendarJson) {
 
 
     document.write("<tr>");
@@ -101,8 +79,6 @@ for ( dayOfWeek in calendarJson ) {
     document.write("<td></td>");
     document.write("</tr>");
 }
-
-
 
 document.write("</table>");
 
